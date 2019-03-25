@@ -160,13 +160,24 @@ app.get("/cartIconlist",(req,res)=>{
   //  console.log(uid)
    if(!uid){res.send({code:1,msg:"视频"});return}
   // console.log(req.session.uid)
-  var sql = "select uid,pid,sm,price,title from zl_cart where uid = ?"
+  var sql = "select id,uid,pid,sm,price,title from zl_cart where uid = ?"
   pool.query(sql,[uid],(err,result)=>{
     if(err)throw err;
       res.send(result);
   })
 });
 
+
+//功能11: cartdete  查询购物车
+app.get("/cartdete",(req,res)=>{
+  var id = req.query.id;
+   if(!id){res.send({code:1,msg:"没有"});return}
+  var sql = "delete from zl_cart where id = ?"
+  pool.query(sql,[id],(err,result)=>{
+    if(err)throw err;
+      res.send(result);
+  })
+});
 
 // //功能 imgBodyS   home 中商品图片隐藏
 // app.get("/imgBody",(req,res)=>{

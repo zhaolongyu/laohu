@@ -9,6 +9,7 @@ import Router from 'vue-router'
  import cartget from "./components/cart/cartget.vue"
  import end22 from "./components/src/end222.vue"
  import nnn from "./components/cart/123.vue"
+ import kong from "./components/src/kong.vue"
 
 
 Vue.use(Router)
@@ -23,6 +24,7 @@ export default new Router({
      {path:'/cartlist/:lid',component:cartlist},
      {path:'/cartget',component:cartget},
      {path:'/nnnn',component:nnn},
+     {path:'/kong',component:kong},
 
   ]
 });
