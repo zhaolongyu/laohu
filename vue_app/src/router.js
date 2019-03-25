@@ -1,7 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloContainer from "./components/HelloWorld.vue"
-import Exam01 from "./components/Exam01.vue";
  import home from "./components/home/Home.vue"
  import login from "./components/login/loginList.vue"
  import loginOu from "./components/login/loginou.vue"
@@ -17,7 +15,6 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {path:'/',redirect:"/home"},
-     {path:'/Exam01',component:Exam01},
      {path:'/Home',component:home},
      {path:'/login',component:login},
      {path:'/loginOu',component:loginOu},
