@@ -5,7 +5,7 @@
         <li><img src="img/SmallIcon/4.png" ></li>
         <li><router-link to="/">主页</router-link></li>
         <li class="home-body-tu" @mousemove="geren" @mouseout="geren1">
-           <router-link to="/">个人家庭</router-link>
+           <router-link to="/solution">个人家庭</router-link>
            <!-- 隐藏 -->
               <ul id="home-body-one">
                   <li @mousemove="listOnt(1)" @mouseout="listOnt1(1)" class="home-body-one">
@@ -13,39 +13,39 @@
                   <div id="homeBodyOneDiv">
                      <div class="homeBody-div">
                        <ul>
-                          <li><router-link to="">游戏本</router-link></li>
-                          <li><router-link to="">拯救7200</router-link></li>
-                          <li><router-link to="">拯救者200</router-link></li>
-                          <li><router-link to="">Y7100</router-link></li>
+                          <li><router-link to="/solution">游戏本</router-link></li>
+                          <li><router-link to="/solution">拯救7200</router-link></li>
+                          <li><router-link to="/solution">拯救者200</router-link></li>
+                          <li><router-link to="/solution">Y7100</router-link></li>
                        </ul>
                      </div>
                      <div class="homeBody-div">
                         <ul>
-                        <li><router-link to="">轻薄本</router-link></li>
-                        <li><router-link to="">小新1232</router-link></li>
-                        <li><router-link to="">AIddep3</router-link></li>
-                        <li><router-link to="">BU324</router-link></li>
-                        <li><router-link to="">bylong32</router-link></li>
+                        <li><router-link to="/solution">轻薄本</router-link></li>
+                        <li><router-link to="/solution">小新1232</router-link></li>
+                        <li><router-link to="/solution">AIddep3</router-link></li>
+                        <li><router-link to="/solution">BU324</router-link></li>
+                        <li><router-link to="/solution">bylong32</router-link></li>
                       </ul>
                      </div>
                       <div class="homeBody-div">
                         <ul>
-                          <li><router-link to="">便捷本</router-link></li>
-                          <li><router-link to="">AJ7200A</router-link></li>
-                          <li><router-link to="">JA a8</router-link></li>
-                          <li><router-link to="">feifei8J</router-link></li>
-                          <li><router-link to="">Ja0</router-link></li> 
-                          <li><router-link to="">Y3Ja0</router-link></li> 
+                          <li><router-link to="/solution">便捷本</router-link></li>
+                          <li><router-link to="/solution">AJ7200A</router-link></li>
+                          <li><router-link to="/solution">JA a8</router-link></li>
+                          <li><router-link to="/solution">feifei8J</router-link></li>
+                          <li><router-link to="/solution">Ja0</router-link></li> 
+                          <li><router-link to="/solution">Y3Ja0</router-link></li> 
                       </ul> 
                      </div>
                       <div class="homeBody-div">
                         <ul>
-                            <li><router-link to="">二合一</router-link></li>
-                            <li><router-link to="">D33</router-link></li>
-                            <li><router-link to="">32</router-link></li>
-                            <li><router-link to="">Amd 520</router-link></li>
-                            <li><router-link to="">Ba1520</router-link></li>
-                            <li><router-link to="">Ds 2</router-link></li>
+                            <li><router-link to="/solution">二合一</router-link></li>
+                            <li><router-link to="/solution">D33</router-link></li>
+                            <li><router-link to="/solution">32</router-link></li>
+                            <li><router-link to="/solution">Amd 520</router-link></li>
+                            <li><router-link to="/solution">Ba1520</router-link></li>
+                            <li><router-link to="/solution">Ds 2</router-link></li>
                         </ul>
                       </div>
                   </div>
@@ -55,39 +55,39 @@
                    <div id="homeBodyOneDiv2">
                      <div class="homeBody-div">
                        <ul>
-                          <li><router-link to="">aidf</router-link></li>
-                          <li><router-link to="">af7200</router-link></li>
-                          <li><router-link to="">bi200</router-link></li>
-                          <li><router-link to="">Y7100</router-link></li>
+                          <li><router-link to="/solution">aidf</router-link></li>
+                          <li><router-link to="/solution">af7200</router-link></li>
+                          <li><router-link to="/solution">bi200</router-link></li>
+                          <li><router-link to="/solution">Y7100</router-link></li>
                        </ul>
                      </div>
                      <div class="homeBody-div">
                         <ul>
-                        <li><router-link to="">xo本</router-link></li>
-                        <li><router-link to="">mofeu</router-link></li>
-                        <li><router-link to="">AIddep3</router-link></li>
-                        <li><router-link to="">BU324</router-link></li>
-                        <li><router-link to="">bylong32</router-link></li>
+                        <li><router-link to="/solution">xo本</router-link></li>
+                        <li><router-link to="/solution">mofeu</router-link></li>
+                        <li><router-link to="/solution">AIddep3</router-link></li>
+                        <li><router-link to="/solution">BU324</router-link></li>
+                        <li><router-link to="/solution">bylong32</router-link></li>
                       </ul>
                      </div>
                       <div class="homeBody-div">
                         <ul>
-                          <li><router-link to="">cookle</router-link></li>
-                          <li><router-link to="">AJ7200A</router-link></li>
-                          <li><router-link to="">JA a8</router-link></li>
-                          <li><router-link to="">feifei8J</router-link></li>
-                          <li><router-link to="">Ja0</router-link></li> 
-                          <li><router-link to="">Y3Ja0</router-link></li> 
+                          <li><router-link to="/solution">cookle</router-link></li>
+                          <li><router-link to="/solution">AJ7200A</router-link></li>
+                          <li><router-link to="/solution">JA a8</router-link></li>
+                          <li><router-link to="/solution">feifei8J</router-link></li>
+                          <li><router-link to="/solution">Ja0</router-link></li> 
+                          <li><router-link to="/solution">Y3Ja0</router-link></li> 
                       </ul> 
                      </div>
                       <div class="homeBody-div">
                         <ul>
-                            <li><router-link to="">b2</router-link></li>
-                            <li><router-link to="">D33</router-link></li>
-                            <li><router-link to="">32</router-link></li>
-                            <li><router-link to="">Amd 520</router-link></li>
-                            <li><router-link to="">Ba1520</router-link></li>
-                            <li><router-link to="">Ds 2</router-link></li>
+                            <li><router-link to="/solution">b2</router-link></li>
+                            <li><router-link to="/solution">D33</router-link></li>
+                            <li><router-link to="/solution">32</router-link></li>
+                            <li><router-link to="/solution">Amd 520</router-link></li>
+                            <li><router-link to="/solution">Ba1520</router-link></li>
+                            <li><router-link to="/solution">Ds 2</router-link></li>
                         </ul>
                       </div>
                   </div>   
@@ -97,58 +97,58 @@
                     <div id="homeBodyOneDiv3">
                      <div class="homeBody-div">
                        <ul>
-                          <li><router-link to="">kkkk</router-link></li>
-                          <li><router-link to="">af7200</router-link></li>
-                          <li><router-link to="">bi200</router-link></li>
-                          <li><router-link to="">Y7100</router-link></li>
+                          <li><router-link to="/solution">kkkk</router-link></li>
+                          <li><router-link to="/solution">af7200</router-link></li>
+                          <li><router-link to="/solution">bi200</router-link></li>
+                          <li><router-link to="/solution">Y7100</router-link></li>
                        </ul>
                      </div>
                      <div class="homeBody-div">
                         <ul>
-                        <li><router-link to="">模本</router-link></li>
-                        <li><router-link to="">mofeu</router-link></li>
-                        <li><router-link to="">AIddep3</router-link></li>
-                        <li><router-link to="">BU324</router-link></li>
-                        <li><router-link to="">bylong32</router-link></li>
+                        <li><router-link to="/solution">模本</router-link></li>
+                        <li><router-link to="/solution">mofeu</router-link></li>
+                        <li><router-link to="/solution">AIddep3</router-link></li>
+                        <li><router-link to="/solution">BU324</router-link></li>
+                        <li><router-link to="/solution">bylong32</router-link></li>
                       </ul>
                      </div>
                       <div class="homeBody-div">
                         <ul>
-                          <li><router-link to="">biye</router-link></li>
-                          <li><router-link to="">AJ7200A</router-link></li>
-                          <li><router-link to="">JA a8</router-link></li>
-                          <li><router-link to="">feifei8J</router-link></li>
-                          <li><router-link to="">Ja0</router-link></li> 
-                          <li><router-link to="">Y3Ja0</router-link></li> 
+                          <li><router-link to="/solution">biye</router-link></li>
+                          <li><router-link to="/solution">AJ7200A</router-link></li>
+                          <li><router-link to="/solution">JA a8</router-link></li>
+                          <li><router-link to="/solution">feifei8J</router-link></li>
+                          <li><router-link to="/solution">Ja0</router-link></li> 
+                          <li><router-link to="/solution">Y3Ja0</router-link></li> 
                       </ul> 
                      </div>
                       <div class="homeBody-div">
                         <ul>
-                            <li><router-link to="">nind</router-link></li>
-                            <li><router-link to="">df</router-link></li>
-                            <li><router-link to="">32</router-link></li>
-                            <li><router-link to="">Amd 520</router-link></li>
-                            <li><router-link to="">Ba1520</router-link></li>
-                            <li><router-link to="">Ds 2</router-link></li>
+                            <li><router-link to="/solution">nind</router-link></li>
+                            <li><router-link to="/solution">df</router-link></li>
+                            <li><router-link to="/solution">32</router-link></li>
+                            <li><router-link to="/solution">Amd 520</router-link></li>
+                            <li><router-link to="/solution">Ba1520</router-link></li>
+                            <li><router-link to="/solution">Ds 2</router-link></li>
                         </ul>
                       </div>
                   </div> 
                   </li> 
                   <li class="home-body-one">
-                     <router-link to="/"><img src="img/SmallIcon/3.png">智能产品</router-link>
+                     <router-link to="/solution"><img src="img/SmallIcon/3.png">智能产品</router-link>
                   </li> 
                   <li class="home-body-one">
-                     <router-link to="/"><img src="img/SmallIcon/3.png">平板电脑</router-link>
+                     <router-link to="/solution"><img src="img/SmallIcon/3.png">平板电脑</router-link>
                   </li> 
                   <li class="home-body-one">
-                    <router-link to="/"><img src="img/SmallIcon/3.png">配备</router-link>
+                    <router-link to="/solution"><img src="img/SmallIcon/3.png">配备</router-link>
                   </li> 
              </ul>
         </li> 
-        <li><div><router-link to="/">商用产品</router-link></div></li>
-        <li><div><router-link to="/">数据中心</router-link></div></li>
-        <li><div><router-link to="/">商城</router-link></div></li>
-        <li><div><router-link to="/">服务</router-link></div></li>
+        <li><div><router-link to="/solution">商用产品</router-link></div></li>
+        <li><div><router-link to="/solution">数据中心</router-link></div></li>
+        <li><div><router-link to="/solution">商城</router-link></div></li>
+        <li><div><router-link to="/solution">服务</router-link></div></li>
       </ul>
       <ul class="smallnav">
          <li>

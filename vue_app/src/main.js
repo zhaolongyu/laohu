@@ -7,7 +7,10 @@ import Vuex from "vuex"
 //0.2:注册Vuex组件
 Vue.use(Vuex) 
 
-
+//页面不在顶部
+router.afterEach((to,from,next) => {
+  window.scrollTo(0,0);
+})
 
 //1:引入mint-ui 样式文件
 import'mint-ui/lib/style.css'

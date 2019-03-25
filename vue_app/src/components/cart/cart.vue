@@ -11,21 +11,21 @@
             <div class="headerTopOneYi"><img src="img/SmallIcon/7.jpg"></div>
             <div id="headerTopOneE">
                 <ul>
-                    <li><router-link to="">联想首页</router-link></li>
-                    <li><router-link to="">商城</router-link></li>
-                    <li><router-link to="">社区</router-link></li>
-                    <li><router-link to="">门店</router-link></li>
-                    <li><router-link to="">资讯</router-link></li>
+                    <li><router-link to="/home">联想首页</router-link></li>
+                    <li><router-link to="/cart">商城</router-link></li>
+                    <li><router-link to="/solution">社区</router-link></li>
+                    <li><router-link to="/solution">门店</router-link></li>
+                    <li><router-link to="/solution">资讯</router-link></li>
                 </ul> 
             </div>
             <div class="headerTopOneSan">
               <ul>
                 <li>
-                   <router-link to="/">注册</router-link>
+                   <router-link to="/login">注册</router-link>
                    <span>|</span>
-                   <router-link to=""> 登录</router-link>
+                   <router-link to="/loginou">登录</router-link>
                 </li>
-                <li><img src="img/SmallIcon/8.png" alt=""></li>
+                <li><img src="img/SmallIcon/8.png" alt="11"></li>
               </ul>
             </div>
          </div>

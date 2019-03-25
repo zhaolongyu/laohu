@@ -2,8 +2,8 @@
   <div id="cartget">
      <!--导航-->
      <div class="cartgetheader">  
-            <router-link to="">返回首页</router-link>
-            <router-link to="">登录</router-link>
+            <router-link to="/home">返回首页</router-link>
+            <router-link to="/loginou">登录</router-link>
      </div>
       <!--cartGetBody  主体-->
      <div class="cartGetBody">
@@ -47,7 +47,7 @@
                   <td>
                      <tr>
                         <td colspan="7"><input type="checkbox">商品1</td>
-                        <td>合计：<i>{{count*list.pirce}}</i></td>
+                        <td>合计：<i>{{count}}</i></td>
                      </tr>
                   </td>
                    

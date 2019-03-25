@@ -23,7 +23,7 @@
                     <end-tab :list="item" @add="add_list"></end-tab>
                 </tr>
                 <tr>
-                 <td>合计：<i>{{a}}</i></td>
+                 <td>合计：<i>{{count}}</i></td>
                  </tr>
            </table>
      </div>

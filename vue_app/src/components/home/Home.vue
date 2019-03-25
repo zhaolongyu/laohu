@@ -20,31 +20,31 @@
            <div>
                <ul class="myBodyTopSImg">
                  <li @mousemove="myBodyTopLi(1)" >
-                   <router-link to="" >
+                   <router-link to="/cart" >
                        <img src="img/body/1-1.png">
                        <p>平板电脑</p>
                    </router-link>
                  </li>
                  <li @mousemove="myBodyTopLi(2)" >
-                   <router-link to="">
+                   <router-link to="/cart">
                        <img src="img/body/1-2.png" alt="">
                        <p>loenr电脑</p>
                    </router-link>
                  </li>
                  <li  @mousemove="myBodyTopLi(3)" >
-                   <router-link to="">
+                   <router-link to="/cart">
                        <img src="img/body/1-3.png" alt="">
                        <p>手机</p>
                    </router-link>
                  </li>
                  <li  @mousemove="myBodyTopLi(4)" >
-                   <router-link to="">
+                   <router-link to="/cart">
                        <img src="img/body/1-4.png" alt="">
                        <p>服务</p>
                    </router-link>
                  </li>
                  <li  @mousemove="myBodyTopLi(5)" >
-                   <router-link to="">
+                   <router-link to="/cart">
                        <img src="img/body/1-5.png" alt="">
                        <p>智能</p>
                    </router-link>
@@ -206,36 +206,36 @@
       <div class="homeHeaderButton1">
         <div class="homeHeaderButton" id="homeHeaderUl">
           <ul>
-            <li><router-link to="/"><img src="img/md/1.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/1.jpg" ></router-link></li>
           </ul>
           <ul >
-            <li><router-link to="/"><img src="img/md/2.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/2.jpg" ></router-link></li>
           </ul>
             <ul>
-            <li><router-link to="/"><img src="img/md/3.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/3.jpg" ></router-link></li>
           </ul>
           <ul>
-            <li><router-link to="/"><img src="img/md/4.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/4.jpg" ></router-link></li>
           </ul>
           <ul>
-            <li><router-link to="/"><img src="img/md/5.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/5.jpg" ></router-link></li>
           </ul>
         </div>
         <div class="homeHeaderButton" id="homeHeaderUl1">
           <ul>
-            <li><router-link to="/"><img src="img/md/1.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/1.jpg" ></router-link></li>
           </ul>
           <ul >
-            <li><router-link to="/"><img src="img/md/2.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/2.jpg" ></router-link></li>
           </ul>
             <ul>
-            <li><router-link to="/"><img src="img/md/3.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/3.jpg" ></router-link></li>
           </ul>
           <ul>
-            <li><router-link to="/"><img src="img/md/4.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/4.jpg" ></router-link></li>
           </ul>
           <ul>
-            <li><router-link to="/"><img src="img/md/5.jpg" ></router-link></li>
+            <li><router-link to="/solution"><img src="img/md/5.jpg" ></router-link></li>
           </ul>
         </div>
       </div>
@@ -435,14 +435,14 @@ export default {
                 var a=document.createElement("div");
                 a.innerHTML= `
                 <div>
-                  <router-link to="/">
+                  <a href="#/cart">
                     <img src="${res.data[i].imgUrl}">
                     <div>
                       <p>${res.data[i].zname}</p>
                       <p>${res.data[i].title}</p>
                       <p>价格：￥${res.data[i].price}</p>
                     </div>
-                  </router-link>
+                  </a>
                    </div>`
                    if(i<4)
                   myBodyTopSImg[0].appendChild(a)

@@ -2,49 +2,49 @@
 <div>
     <div class="homeFooter">
       <ul>
-        <li class="homeFooterTitle"><router-link to="/">关于联想</router-link></li>
-        <li><router-link to="/">投资者关系</router-link></li>
-        <li><router-link to="/">工作机会</router-link></li>
-        <li><router-link to="/">销售网点查询</router-link></li>
-        <li><router-link to="/">服务网点查询</router-link></li>
+        <li class="homeFooterTitle"><router-link to="/solution">关于联想</router-link></li>
+        <li><router-link to="/solution">投资者关系</router-link></li>
+        <li><router-link to="/solution">工作机会</router-link></li>
+        <li><router-link to="/solution">销售网点查询</router-link></li>
+        <li><router-link to="/solution">服务网点查询</router-link></li>
       </ul>
       <ul>
-        <li class="homeFooterTitle"><router-link to="/">关于联想</router-link></li>
-        <li><router-link to="/">投资者关系</router-link></li>
-        <li><router-link to="/">工作机会</router-link></li>
-        <li><router-link to="/">销售网点查询</router-link></li>
-        <li><router-link to="/">服务网点查询</router-link></li>
+        <li class="homeFooterTitle"><router-link to="/solution">关于联想</router-link></li>
+        <li><router-link to="/solution">投资者关系</router-link></li>
+        <li><router-link to="/solution">工作机会</router-link></li>
+        <li><router-link to="/solution">销售网点查询</router-link></li>
+        <li><router-link to="/solution">服务网点查询</router-link></li>
       </ul>
       <ul>
-        <li class="homeFooterTitle"><router-link to="/">联想商城</router-link></li>
-        <li><router-link to="/">0元试用</router-link></li>
-        <li><router-link to="/">极速到家</router-link></li>
-        <li><router-link to="/">联想合伙人</router-link></li>
-        <li><router-link to="/">私人定制</router-link></li>
-        <li><router-link to="/">以旧换新</router-link></li>
+        <li class="homeFooterTitle"><router-link to="/solution">联想商城</router-link></li>
+        <li><router-link to="/solution">0元试用</router-link></li>
+        <li><router-link to="/solution">极速到家</router-link></li>
+        <li><router-link to="/solution">联想合伙人</router-link></li>
+        <li><router-link to="/solution">私人定制</router-link></li>
+        <li><router-link to="/solution">以旧换新</router-link></li>
       </ul>
       <ul>
-        <li class="homeFooterTitle"><router-link to="/">联想服务</router-link></li>
-        <li><router-link to="/">驱动与软件下载</router-link></li>
-        <li><router-link to="/">联想知识库</router-link></li>
-        <li><router-link to="/">24小时智能客服</router-link></li>
-        <li><router-link to="/">保修配置查询</router-link></li>
-        <li><router-link to="/">延长保修</router-link></li>
-        <li><router-link to="/">联想IT管理服务</router-link></li>
+        <li class="homeFooterTitle"><router-link to="/solution">联想服务</router-link></li>
+        <li><router-link to="/solution">驱动与软件下载</router-link></li>
+        <li><router-link to="/solution">联想知识库</router-link></li>
+        <li><router-link to="/solution">24小时智能客服</router-link></li>
+        <li><router-link to="/solution">保修配置查询</router-link></li>
+        <li><router-link to="/solution">延长保修</router-link></li>
+        <li><router-link to="/solution">联想IT管理服务</router-link></li>
       </ul>
       <ul>
-        <li class="homeFooterTitle"><router-link to="/">关于联想</router-link></li>
-        <li><router-link to="/">联想网站群</router-link></li>
-        <li><router-link to="/">联想创投</router-link></li>
-        <li><router-link to="/">聚享汇</router-link></li>
-        <li><router-link to="/">联想电脑管家</router-link></li>
+        <li class="homeFooterTitle"><router-link to="/solution">关于联想</router-link></li>
+        <li><router-link to="/solution">联想网站群</router-link></li>
+        <li><router-link to="/solution">联想创投</router-link></li>
+        <li><router-link to="/solution">聚享汇</router-link></li>
+        <li><router-link to="/solution">联想电脑管家</router-link></li>
       </ul>
       <ul>
-        <li class="homeFooterTitle"><router-link to="/">关于联想</router-link></li>
-        <li><router-link to="/">联想官方社交平台</router-link></li>
-        <li><router-link to="/">工作机会</router-link></li>
-        <li><router-link to="/">销售网点查询</router-link></li>
-        <li><router-link to="/">服务网点查询</router-link></li>
+        <li class="homeFooterTitle"><router-link to="/solution">关于联想</router-link></li>
+        <li><router-link to="/solution">联想官方社交平台</router-link></li>
+        <li><router-link to="/solution">工作机会</router-link></li>
+        <li><router-link to="/solution">销售网点查询</router-link></li>
+        <li><router-link to="/solution">服务网点查询</router-link></li>
       </ul>
     </div>
     <div class="homeFooterLeft">
